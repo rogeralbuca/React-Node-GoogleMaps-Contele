@@ -1,0 +1,10 @@
+{
+  "name": "node-contele",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd src && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
