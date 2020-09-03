@@ -26,8 +26,8 @@ In the project directory, you can run:
 ### `yarn dev`
 
 Runs the app in the development mode and server<br />
-*Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-*Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 #### `dependencies`
 yarn add concurrently
