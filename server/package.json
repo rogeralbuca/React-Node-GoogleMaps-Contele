@@ -2,9 +2,11 @@
   "name": "node-contele",
   "version": "1.0.0",
   "scripts": {
-    "server": "cd src && node server.js"
+    "server": "cd src && node api.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
   }
 }

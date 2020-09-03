@@ -13,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Screenshot
 ![Map](/assets/map.png)
 
+![Swagger](/assets/swagger.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -49,3 +51,8 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 #### `dependencies`
 yarn add express
+yarn add swagger-jsdoc
+yarn add swagger-ui-express
+
+### `swagger api information`
+Open [http://localhost:5000/api-docs/](http://localhost:5000/api-docs/) to view it in the browser.

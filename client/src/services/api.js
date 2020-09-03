@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const contele = axios.create({ baseURL: '/api' });
+const contele = axios.create({ baseURL: '/api/places' });
 
 contele.interceptors.request.use(function (config) {
 

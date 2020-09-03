@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<symbol id="menu" viewBox="0 -40 40 40">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.95,0C39.65,0,40-0.35,40-1.05V-39c0-0.667-0.35-1-1.05-1H1
+			c-0.667,0-1,0.333-1,1v37.95C0-0.35,0.333,0,1,0H38.95z"/>
+	</g>
+	<g>
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#626262" points="11.05,-14.85 11.05,-11 29,-11 29,-14.85 			"/>
+		</g>
+		<g>
+			<polygon  fill-rule="evenodd" clip-rule="evenodd" fill="#626262" points="11.05,-18.1 29,-18.1 29,-21.95 11.05,-21.95 			"/>
+		</g>
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#626262" points="29,-25.15 29,-29 11.05,-29 11.05,-25.15 			"/>
+		</g>
+	</g>
+</symbol>
+<use xlink:href="#menu" width="40" height="40" y="-40" transform="matrix(1 0 0 -1 0 0)" overflow="visible"/>
+</svg>
