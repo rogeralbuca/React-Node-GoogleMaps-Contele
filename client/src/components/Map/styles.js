@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Cluster = styled.div`
-  color: var(--text);
+  color: var(--white);
   background: var(--cluster);
   border-radius: 50%;
   padding: 15px;

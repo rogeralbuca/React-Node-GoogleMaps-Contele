@@ -1,8 +1,13 @@
 :root {
-  --cluster: #2A7AE4;
-  --place: #e01818;
-  --text: #FFFFFF;
-  --tooltip: #000000;
+  /* Root */
   --primary: #1a2564;
+  --white: #FFFFFF;
   --black: #000000;
+  
+  /* Map */
+  --place: #e01818;
+  --cluster: #2A7AE4;
+  
+  /* Icons */
+  --icon: #2B2B2B;
 }

@@ -10,3 +10,7 @@
 
   background: rgb(26, 37, 100, 0);
 }
+
+.over:hover .icon {
+  fill: var(--icon);
+}

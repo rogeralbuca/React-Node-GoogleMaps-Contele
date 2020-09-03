@@ -48,9 +48,33 @@ function Map() {
       mapRef.current.panTo({ lat: latitude, lng: longitude });
   }
 
+  function mapOptions(maps) {
+    return {
+      zoomControlOptions: {
+        position: maps.ControlPosition.BOTTON,
+        style: maps.ZoomControlStyle.SMALL
+      },
+      mapTypeControlOptions: {
+        position: maps.ControlPosition.TOP_RIGHT
+      },
+      mapTypeControl: true,
+      mapTypeId: maps.MapTypeId.ROADMAP,
+      mapTypeControlOptions: {
+        style: maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: maps.ControlPosition.BOTTOM_CENTER,
+        mapTypeIds: [
+            maps.MapTypeId.ROADMAP,
+            maps.MapTypeId.SATELLITE,
+            maps.MapTypeId.HYBRID
+        ]
+    },
+    };
+  }
+
   return (
     <Container>
       <GoogleMap
+        options={mapOptions}
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY }}
         defaultCenter={{ lat: -23.5489, lng: -46.6388 }}
         defaultZoom={5}

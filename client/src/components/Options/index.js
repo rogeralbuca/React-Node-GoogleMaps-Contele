@@ -1,24 +1,25 @@
 import React from 'react';
 import './styles.css';
-import menu from '../../assets/menu.svg';
-import home from '../../assets/home.svg';
-import map from '../../assets/map.svg';
-import login from '../../assets/login.svg';
+
+import MenuIcon from '../Icons/MenuIcon';
+import HomeIcon from '../Icons/HomeIcon';
+import MapIcon from '../Icons/MapIcon';
+import LoginIcon from '../Icons/LoginIcon';
 
 function Options() {
   return (
     <div className="options">
-      <a href="/" >
-        <img src={menu} alt="Menu" /> 
+      <a href="/" title="Menu">
+        <MenuIcon width="40px" height="40px" className="over"></MenuIcon> 
       </a>
-      <a href="/">
-        <img src={home} alt="Home" />
+      <a href="/" title="Home">
+        <HomeIcon width="40px" height="40px" className="over"></HomeIcon> 
       </a>
-      <a href="/">
-        <img src={map} alt="Mapa" />
+      <a href="/" title="Map">
+        <MapIcon width="40px" height="40px" className="over"></MapIcon> 
       </a>
-      <a href="/">
-        <img src={login} alt="Login" />
+      <a href="/" title="Login">
+        <LoginIcon width="40px" height="40px" className="over"></LoginIcon> 
       </a>
     </div>
   );
